@@ -1,0 +1,32 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+
+<div class="text-center">
+    <h2>Employee Menu</h2>
+    <br />
+    <div class="row">
+        <div class="col-md-3">
+            <form class="margintop" action='module1' method='GET'>
+                <button type="submit" class="btn btn-primary btn-lg btn-block">Module 1</button><br />
+            </form>
+        </div>
+        <div class="col-md-3">
+            <form class="margintop" action='module2' method='GET'>
+                <button type="submit" class="btn btn-primary btn-lg btn-block">Module 2</button><br />
+            </form>
+        </div>
+        <div class="col-md-3">
+            <form class="margintop" action='module3' method='GET'>
+                <button type="submit" class="btn btn-primary btn-lg btn-block">Module 3</button><br />
+            </form>
+        </div>
+        <div class="col-md-3">
+            <form class="margincenter" action='module4' method='GET'>
+                <button type="submit" class="btn btn-primary btn-lg btn-block">Module 4</button><br />
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
